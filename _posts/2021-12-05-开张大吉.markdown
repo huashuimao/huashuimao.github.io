@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "开张大吉"
+date:   2021-12-05 20:11:17 +0800
+categories: 通用
+---
+1. 在 Github 上创建同名仓库
+2. 简单看了下各个静态网页生成器，选择 Jekyll
+    1. 安装 Ruby - 去 Ruby 官网下最新的，我这里同时安装了 Ruby + Devkit，之后通过 ruby --version 、 gem --version 查看安装结果
+    1. 安装 bundle - gem install bundler
+    1. 添加 webrick ，否则之后 jekyll 生成页面会报错，内容为 cannot load such file -- webrick (LoadError)
+    1. 安装 jekyll - gem install jekyll
+    1. 找个空目录生成默认主题的站点 - jekyll new .
+    1. 使用 jekyll serve 启动并生成网页，并可进行访问
+
+markdown 语法还不熟练，先这样简单几个流水账，hhhh~
