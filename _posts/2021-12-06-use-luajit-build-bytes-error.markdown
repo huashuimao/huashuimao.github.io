@@ -11,7 +11,7 @@ unknown luaJIT command or jit.* modules not installed
 
 解决：
 ```
-机器上配置了 **LUA_PATH**、**LUA_CPATH** 导致 luajit 无法正常工作
+机器上配置了 LUA_PATH、LUA_CPATH 导致 luajit 无法正常工作
 删掉这两个环境变量就OK了
 ```
   
