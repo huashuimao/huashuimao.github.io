@@ -2,7 +2,7 @@
 layout: post
 title:  "使用 luajit 生成二进制报错"
 date:   2021-12-06 23:11:17 +0800
-categories: build
+categories: development lua
 ---
 报错:
 ```
