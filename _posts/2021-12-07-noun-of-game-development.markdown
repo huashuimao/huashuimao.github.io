@@ -21,13 +21,23 @@ categories: development game
 |技能|Skill||
 |闪避|Evasion||
 |奥义|Unique Skill|用来形容大招|
+|奥义|Ultimate|绝招、大招、终极技能|
 |连携奥义|Cooperate Unique Skill|多个角色组合释放的大招|
 |弹道|Projectile|子弹、投射物、箭矢等等飞行道具使用的名词|
+|施法动作|Cast Animation||
+|施法点|Cast Point||
+|后摇|Backswing||
 |施法后摇|Cast Backswing||
+|瞬发|Instant Cast||
 |机制|Mechanics||
 |冷却|Cooldown||
+|充能|Charges||
 |召唤兽|Summons||
-|转身速率|Turn rate||
+|转身速率|Turn Rate||
+|能力状态|Ability Status|用于描述时间轴上这个点的状态，可用于不同能力间打断的判定|
+|槽|Slots||
+|能力槽|Ability Slots||
+|技能槽|Skill Slots||
 
 
 # 职业相关

@@ -19,6 +19,7 @@ categories: common
     1. 安装 jekyll - gem install jekyll
     1. 找个空目录生成默认主题的站点 - jekyll new .
     1. 使用 jekyll serve 启动并生成网页，并可进行访问
+    1. 参考 [jekyll中文文档]{:target="_blank"}
 
 markdown 语法还不熟练，先这样简单几个流水账，hhhh~
 
@@ -32,6 +33,7 @@ markdown 语法还不熟练，先这样简单几个流水账，hhhh~
 
 Markdown语法参考：[Markdown官方教程] <https://markdown.com.cn/>{:target="_blank"}
 
+[jekyll中文文档]:http://jekyllcn.com/docs/home/
 [使用Github做一个完全免费的个人网站(步骤很细)]:https://zhuanlan.zhihu.com/p/91652100
 [GitHub Pages 文档]:https://docs.github.com/cn/pages
 [在jekyll中使用腾讯统计或百度统计]:https://plutotree.me/jekyll/2019/02/01/using-tencent-analytics-in-jekyll.html
