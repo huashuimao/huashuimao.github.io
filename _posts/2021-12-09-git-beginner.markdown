@@ -2,7 +2,7 @@
 layout: post
 title:  "项目中Git的使用简单流程"
 date:   2021-12-09 23:57:01 +0800
-categories: git
+categories: git begin
 ---
 
 我日常是 TortoiseGit 和 bash 都有用的

@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "lfs 推送错误：file already closed"
+date:   2021-12-10 23:34:17 +0800
+categories: git error
+---
+
+太长不看版：**升级 git lfs** 或者 **使用最新版 git-core 内适配的 lfs**
+
+推送受 lfs 管理的文件时候，发生错误，错误为： `` file already closed `` 
+
+确认远端仓库已经开启了 lfs 文件管理，并且同事的电脑可以正常上传
+
+查询并验证之后，发现是版本问题
+
+卸载掉 git-core 及 git lfs（如果自己安装了），之后安装最新的 git-core （里面已经携带了适配的 lfs ）
+
+或者手动安装的话，我是 2.13.3，从网上查阅到的信息看，升级到 2.11+ 即可
+
+参考了 [GitLab + LFS でハマった]{:target="_blank"}
+
+[GitLab + LFS でハマった]:https://emoken.net/blog2/item_10295.html
+
