@@ -2,7 +2,7 @@
 layout: post
 title:  "时间轴同帧进出导致的bug"
 date:   2021-12-12 22:10:59 +0800
-categories: work timeline bug
+categories: work bug timeline
 ---
 太长不看版：时间轴中对**同帧进出**的效果需仔细处理，避免**随机（需要设备卡顿）**出现的bug
 
