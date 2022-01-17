@@ -15,3 +15,11 @@ Unity 会判定无自定包名时候（无iPhone字段==无配置），会使用
 但是负责iOS打包的同事说在代码中强制设置 ApplicationIdentifier 也无效，之后看来得研究下是什么原因
 
 先简单用 2018.4.36f1 版本设置下 iOS 的 Identifier，并将 ProjectSetting 提交上去解决吧
+
+---
+
+核对后，同事使用 [PleyrSetting.applicationIdentifier](https://docs.unity3d.com/cn/current/ScriptReference/PlayerSettings-applicationIdentifier.html) 属性进行设置，该接口仅对当前平台生效，我们项目默认是使用 Android 平台打开，故而导致其修改的是 Android 平台的 Identifier
+
+这里算是一个坑点，推荐使用 [PlayerSetting.SetApplicationIdentifer](https://docs.unity3d.com/cn/current/ScriptReference/PlayerSettings.SetApplicationIdentifier.html) 接口进行设置，传入平台和标识
+
+之前在设置其他东西的时候，印象里也踩过类似的坑，扶额
